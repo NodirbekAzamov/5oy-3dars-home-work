@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "SamiBold";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+aside {
+  background: #22343D;
+}
+aside .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+aside .container .aisde_text {
+  max-width: 537px;
+}
+aside .container .aisde_text h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+aside .container .aside_boxs {
+  display: flex;
+  gap: 227px;
+  margin-top: 93px;
+}
+aside .container .aside_boxs .aside_box {
+  text-align: center;
+}
+aside .container .aside_boxs .aside_box h3 {
+  color: #FFF;
+  font-family: "Medium";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 27px 0 16px 0;
+}
+aside .container .aside_boxs .aside_box p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Redular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+aside .container .aside_boxs .aside_box h6 {
+  color: #FFF;
+  font-family: "Medium";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 12px;
+}
+
+@media (min-width: 448px) and (max-width: 769px) {
+  aside .container .aside_boxs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 0 15px;
+  }
+  aside .container .aside_boxs .aside_box img {
+    width: 100px;
+  }
+}
+@media (max-width: 447px) {
+  aside .container .aisde_text {
+    max-width: 537px;
+  }
+  aside .container .aisde_text h2 {
+    font-size: 25px;
+  }
+  aside .container .aside_boxs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0 15px;
+  }
+  aside .container .aside_boxs .aside_box img {
+    width: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */

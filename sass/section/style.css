@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "SamiBold";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Medium";
+  src: url(../../fonts/Poppins/Poppins-Medium.ttf);
+}
+section .container {
+  padding: 101px 185px 115px 185px;
+}
+section .container h4 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Bold";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .container .section_boxs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .container .section_boxs .section_box {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 100px;
+}
+section .container .section_boxs .section_box h6 {
+  color: #FFF;
+  font-family: "Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section .container .section_boxs .section_box h5 {
+  color: #FFF;
+  font-family: "SamiBold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 16px 0;
+}
+section .container .section_boxs .section_box p {
+  color: #FFF;
+  font-family: "Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 400px;
+}
+section .container .section_boxs .section_box:nth-child(2) {
+  flex-direction: row-reverse;
+}
+section .container button {
+  margin-top: 77px;
+  padding: 11px 18px;
+  border-radius: 8px;
+  background: #02897A;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  section .container .section_boxs .section_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  section .container {
+    padding: 100px 120px;
+  }
+  section .container .section_boxs .section_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+  section .container {
+    padding: 70px 50px;
+  }
+  section .container .section_boxs .section_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  section .container .section_boxs .section_box img {
+    width: 350px;
+  }
+}
+@media (max-width: 447px) {
+  section .container {
+    padding: 50px 20px;
+  }
+  section .container h4 {
+    font-size: 25px;
+  }
+  section .container .section_boxs .section_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  section .container .section_boxs .section_box img {
+    width: 250px;
+  }
+  section .container .section_boxs .section_box h6 {
+    font-size: 20px;
+  }
+  section .container .section_boxs .section_box h5 {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+  section .container .section_boxs .section_box p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  section .container .section_boxs button {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
